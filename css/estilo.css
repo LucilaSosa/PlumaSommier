@@ -14,12 +14,28 @@ body {
 }
 
 .fuentes li a:hover {
-    background-color: #0e0a0a85;
-    color: #fff;
+    background-color: #cdae49;
+    border-radius:5px;
+    color: #000000;
 }
 
 header {
+    background-color: black;
     border-bottom: 1px solid black;
+    position: sticky;
+    top: 0;
+}
+.colorMenu{
+    background-color: #fff;
+}
+.menu-fijo li{
+    display: inline;
+}
+.menu-fijo a{
+    font-size:0.9em;
+    color: #fff;
+    text-shadow: 1px 1px #cdae49;
+    padding: 0 0 0 10px;
 }
 
 
