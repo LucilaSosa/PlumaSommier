@@ -82,8 +82,10 @@ header {
 }
 
 .img-servicios {
-    width: 580px;
+    width: 560px;
     height: 400px;
+    margin: auto;
+    display: block;
 }
 
 /* CONTACTOS */
