@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Spice&family=Libre+Baskerville&family=Pacifico&family=Rajdhani:wght@500&display=swap');
 
-
-
 body {
     font-family: 'Rajdhani', sans-serif;
 }
 
 .row{
     --bs-gutter-x:0;
+    --bs-gutter-y:0;
 }
 
 /*HEADER*/
@@ -82,10 +81,8 @@ header {
 }
 
 .img-servicios {
-    width: 560px;
-    height: 400px;
-    margin: auto;
-    display: block;
+  width: 100%;
+  height: auto;
 }
 
 /* CONTACTOS */
