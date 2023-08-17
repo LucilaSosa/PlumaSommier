@@ -20,7 +20,7 @@ header {
 }
 
 .header-fijo {
-    position: fixed;
+    position: sticky;
     top: 0;
     z-index: 1;
     width: 100%;
@@ -44,9 +44,6 @@ header {
 
 
 /* CAROUSEL */
-.marginTop-carrousel{
-    margin-top: 72px;
-}
 .imgCarousel {
     height: 350px;
 }
