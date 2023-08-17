@@ -6,6 +6,9 @@ body {
     font-family: 'Rajdhani', sans-serif;
 }
 
+.row{
+    --bs-gutter-x:0;
+}
 
 /*HEADER*/
 
