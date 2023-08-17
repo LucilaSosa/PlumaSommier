@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Spice&family=Libre+Baskerville&family=Pacifico&family=Rajdhani:wght@500&display=swap');
 
+* {
+    margin:0;
+    padding:0;
+  }
+  
 body {
     font-family: 'Rajdhani', sans-serif;
 }
@@ -13,17 +18,14 @@ body {
     text-transform: uppercase;
 }
 
-.fuentes li a:hover {
-    background-color: #cdae49;
-    border-radius:5px;
-    color: #000000;
-}
-
 header {
-    background-color: black;
-    border-bottom: 1px solid black;
-    position: sticky;
+    background-color: #000000;
+}
+.header-fijo{
+    position: fixed;
     top: 0;
+    z-index: 1;
+    width: 100%;
 }
 .colorMenu{
     background-color: #fff;
@@ -68,13 +70,17 @@ header {
 
 .card {
     border: none;
+    margin-top:15px ;
 }
 
 /* SERVICIOS */
 .serv {
     padding-top: 1rem;
 }
-
+.img-servicios{
+    width: 560px;
+    height: 400px;
+}
 /* CONTACTOS */
 .link {
     text-decoration: none;
