@@ -45,6 +45,11 @@ header {
     font-size: 3rem;
 }
 
+.colorBtn{
+    background-color: #cdae49;
+    color:black;
+}
+
 .card {
     border: none;
 }
