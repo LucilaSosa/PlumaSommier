@@ -1,10 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Spice&family=Libre+Baskerville&family=Pacifico&family=Rajdhani:wght@500&display=swap');
 
-* {
-    margin:0;
-    padding:0;
-  }
-  
+
+
 body {
     font-family: 'Rajdhani', sans-serif;
 }
@@ -21,20 +18,25 @@ body {
 header {
     background-color: #000000;
 }
-.header-fijo{
+
+.header-fijo {
     position: fixed;
     top: 0;
     z-index: 1;
     width: 100%;
 }
-.colorMenu{
-    background-color: #fff;
+
+.colorMenu {
+    background-color: #7b6e4c;
+    border-radius: 3px;
 }
-.menu-fijo li{
+
+.menu-fijo li {
     display: inline;
 }
-.menu-fijo a{
-    font-size:0.9em;
+
+.menu-fijo a {
+    font-size: 0.9em;
     color: #fff;
     text-shadow: 1px 1px #cdae49;
     padding: 0 0 0 10px;
@@ -42,10 +44,11 @@ header {
 
 
 /* CAROUSEL */
-
+.marginTop-carrousel{
+    margin-top: 72px;
+}
 .imgCarousel {
     height: 350px;
-    object-fit: cover;
 }
 
 /* PRODUCTOS */
@@ -63,24 +66,26 @@ header {
     font-size: 3rem;
 }
 
-.colorBtn{
+.colorBtn {
     background-color: #cdae49;
-    color:black;
+    color: black;
 }
 
 .card {
     border: none;
-    margin-top:15px ;
+    margin-top: 15px;
 }
 
 /* SERVICIOS */
 .serv {
     padding-top: 1rem;
 }
-.img-servicios{
+
+.img-servicios {
     width: 560px;
     height: 400px;
 }
+
 /* CONTACTOS */
 .link {
     text-decoration: none;
