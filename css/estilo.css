@@ -3,6 +3,7 @@
   font-family: "Rajdhani", sans-serif;
   --bs-gutter-x:0;
   --bs-gutter-y:0;
+  max-width: 100%;
 }
 
 header {
@@ -27,28 +28,6 @@ header {
   border-radius: 3px;
 }
 
-.menu-fijo li {
-  display: inline;
-}
-.menu-fijo a {
-  font-size: 0.9em;
-  color: white;
-  text-shadow: 1px 1px #cdae49;
-  padding: 0 0 0 10px;
-}
-
-.titulos {
-  background-color: #765827;
-  color: white;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: bold;
-  padding: 1rem;
-}
-.titulos h2 {
-  font-size: 3rem;
-}
-
 .colorBtn {
   background-color: #cdae49;
   color: black;
@@ -68,13 +47,40 @@ header {
   height: auto;
 }
 
-.link {
-  text-decoration: none;
-  color: black;
-}
-
 footer {
   background-color: #cdae49;
+}
+
+body {
+  background-color: rgba(240, 230, 140, 0.284);
+}
+
+.link {
+  text-decoration: none;
+  color: #cdae49;
+  font-size: 20px;
+}
+
+.titulos {
+  background-color: #765827;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1rem;
+}
+.titulos h2 {
+  font-size: 3rem;
+}
+
+.menu-fijo li {
+  display: inline;
+}
+.menu-fijo a {
+  font-size: 0.9em;
+  color: white;
+  text-shadow: 1px 1px #cdae49;
+  padding: 0 0 0 10px;
 }
 
 /*# sourceMappingURL=estilo.css.map */
