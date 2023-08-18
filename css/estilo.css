@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Spice&family=Libre+Baskerville&family=Pacifico&family=Rajdhani:wght@500&display=swap");
+* {
+  font-family: "Rajdhani", sans-serif;
+  --bs-gutter-x:0;
+  --bs-gutter-y:0;
+}
+
+header {
+  background-color: black;
+}
+
+.fuentes {
+  font-size: 1.5rem;
+  padding-left: 2rem;
+  text-transform: uppercase;
+}
+
+.header-fijo {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+.colorMenu {
+  background-color: #765827;
+  border-radius: 3px;
+}
+
+.menu-fijo li {
+  display: inline;
+}
+.menu-fijo a {
+  font-size: 0.9em;
+  color: white;
+  text-shadow: 1px 1px #cdae49;
+  padding: 0 0 0 10px;
+}
+
+.titulos {
+  background-color: #765827;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1rem;
+}
+.titulos h2 {
+  font-size: 3rem;
+}
+
+.colorBtn {
+  background-color: #cdae49;
+  color: black;
+}
+
+.card {
+  border: none;
+  margin-top: 15px;
+}
+
+.serv {
+  padding-top: 1rem;
+}
+
+.img-servicios {
+  width: 100%;
+  height: auto;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  background-color: #cdae49;
+}
+
+/*# sourceMappingURL=estilo.css.map */

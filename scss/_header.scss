@@ -1,0 +1,29 @@
+header {
+	background-color: $negro;
+}
+.fuentes {
+	font-size: 1.5rem;
+	padding-left: 2rem;
+	text-transform: uppercase;
+}
+.header-fijo {
+	position: sticky;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+}
+.colorMenu {
+	background-color: $marron;
+	border-radius: 3px;
+}
+.menu-fijo {
+	li {
+		display: inline;
+	}
+	a {
+		font-size: 0.9em;
+		color: $blanco;
+		text-shadow: 1px 1px $amarillo;
+		padding: 0 0 0 10px;
+	}
+}
