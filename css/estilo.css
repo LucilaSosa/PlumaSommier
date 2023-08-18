@@ -5,9 +5,6 @@
   --bs-gutter-y:0;
   max-width: 100%;
 }
-body {
-  background-color: rgba(240, 230, 140, 0.284);
-}
 
 header {
   background-color: black;
