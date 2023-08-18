@@ -24,10 +24,9 @@ header {
 }
 
 .colorMenu {
-<<<<<<< HEAD
   background-color: #765827;
   border-radius: 3px;
-=======
+
     background-color: #7b6e4c;
     border-radius: 3px;
 }
@@ -43,13 +42,9 @@ header {
     padding: 0 0 0 10px;
 }
 
-
-/* CAROUSEL */
 .imgCarousel {
     height: 350px;
 }
-
-/* PRODUCTOS */
 
 .titulos {
     background-color: #765827;  
@@ -62,7 +57,6 @@ header {
 
 .titulos h2 {
     font-size: 3rem;
->>>>>>> 89d5f832a0948bc95c3dbc35290f1f41e5ecdc14
 }
 
 .colorBtn {
@@ -93,7 +87,6 @@ body {
 }
 
 .link {
-<<<<<<< HEAD
   text-decoration: none;
   color: #cdae49;
   font-size: 20px;
@@ -121,13 +114,8 @@ body {
   padding: 0 0 0 10px;
 }
 
-/*# sourceMappingURL=estilo.css.map */
-=======
-    text-decoration: none;
-    color: black;
-}
-/* FOOTER */
+
 footer{
     background-color: #cdae49;
 }
->>>>>>> 89d5f832a0948bc95c3dbc35290f1f41e5ecdc14
+
