@@ -92,30 +92,5 @@ body {
   font-size: 20px;
 }
 
-.titulos {
-  background-color: #765827;
-  color: white;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: bold;
-  padding: 1rem;
-}
-.titulos h2 {
-  font-size: 3rem;
-}
 
-.menu-fijo li {
-  display: inline;
-}
-.menu-fijo a {
-  font-size: 0.9em;
-  color: white;
-  text-shadow: 1px 1px #cdae49;
-  padding: 0 0 0 10px;
-}
-
-
-footer{
-    background-color: #cdae49;
-}
 
