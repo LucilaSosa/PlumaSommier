@@ -1,12 +1,14 @@
-@mixin link{
+@mixin link {
     text-decoration: none;
     color: $amarillo;
-    font-size:20px
+    font-size: 20px
 }
-.link{
+
+.link {
     @include link;
 }
-@mixin titulos{
+
+@mixin titulos {
     .titulos {
         background-color: $marron;
         color: $blanco;
@@ -14,25 +16,23 @@
         text-transform: uppercase;
         font-weight: bold;
         padding: 1rem;
-        h2 {
-            font-size: 3rem;
-        }
     }
 }
+
 @include titulos;
 
-@mixin menu-fijo{
+@mixin menu-fijo {
     .menu-fijo {
         li {
             display: inline;
         }
+
         a {
-            font-size: 0.9em;
             color: $blanco;
             text-shadow: 1px 1px $amarillo;
             padding: 0 0 0 10px;
         }
-}
+    }
 }
 
 @include menu-fijo;
