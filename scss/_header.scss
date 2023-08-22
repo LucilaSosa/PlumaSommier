@@ -1,21 +1,18 @@
 header {
 	background-color: $negro;
-}
-.fuentes {
-	font-size: 1.5rem;
-	padding-left: 2rem;
-	text-transform: uppercase;
-}
-.header-fijo {
-	position: sticky;
-	top: 0;
-	z-index: 1;
-	width: 100%;
-}
-.colorMenu {
-	background-color: $marron;
-	border-radius: 3px;
-}
+	.header-fijo {
+		position: sticky;
+		top: 0;
+		z-index: 1;
+		width: 100%;
+	}
+	.colorMenu {
+		background-color: $marron;
+		border-radius: 3px;
+	}
 
-
-
+	nav ul li h2{
+		text-transform: uppercase;
+		font-size: 25px;
+	}
+}

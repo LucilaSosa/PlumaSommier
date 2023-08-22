@@ -9,51 +9,23 @@
 header {
   background-color: black;
 }
-
-.fuentes {
-  font-size: 1.5rem;
-  padding-left: 2rem;
-  text-transform: uppercase;
-}
-
-.header-fijo {
+header .header-fijo {
   position: sticky;
   top: 0;
   z-index: 1;
   width: 100%;
 }
-
-.colorMenu {
+header .colorMenu {
   background-color: #765827;
   border-radius: 3px;
 }
-
-.menu-fijo li {
-    display: inline;
+header nav ul li h2 {
+  text-transform: uppercase;
+  font-size: 25px;
 }
 
-.menu-fijo a {
-    font-size: 0.9em;
-    color: #fff;
-    text-shadow: 1px 1px #cdae49;
-    padding: 0 0 0 10px;
-}
-
-.imgCarousel {
-    height: 350px;
-}
-
-.titulos {
-    background-color: #765827;  
-    color: #fff;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 1rem;
-}
-
-.titulos h2 {
-    font-size: 3rem;
+.inicio-novedades {
+  width: 900px;
 }
 
 .colorBtn {
@@ -63,7 +35,6 @@ header {
 
 .card {
   border: none;
-  margin-top: 15px;
 }
 
 .serv {
@@ -75,14 +46,56 @@ header {
   height: auto;
 }
 
+.row {
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+}
+
+.servicios5 {
+  width: 100%;
+}
+.servicios5 .edit-img {
+  width: 500px;
+  height: 400px;
+  display: flex;
+  border-radius: 50px;
+}
+
+.sucursal1 {
+  width: 800px;
+  height: 700px;
+  margin-top: 20px;
+}
+.sucursal1 .texto {
+  margin-top: 20px;
+}
+
 .link {
   text-decoration: none;
   color: #cdae49;
   font-size: 20px;
 }
+
+.titulos {
+  background-color: #765827;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.menu-fijo li {
+  display: inline;
+}
+.menu-fijo a {
+  color: white;
+  text-shadow: 1px 1px #cdae49;
+  padding: 0 0 0 10px;
+}
+
 footer {
   background-color: #cdae49;
 }
 
-
-
+/*# sourceMappingURL=estilo.css.map */
