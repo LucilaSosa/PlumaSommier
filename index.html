@@ -4,131 +4,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rolex oficial - Relojes de alta calidad y eficiencia</title>
-    <meta name="description" content="Los relojes Rolex® son creados a partir de las mejores materias primas, para ofrecerte mucha comodidad y eficiencia a la hora de lucirlo. Son creados para perdurar en el tiempo y pueden brindarte un amplio campo de servicios funcionales para que puedas sacarle el mejor provecho.">
-    <!-- keywords -->
-    <meta name="keywords" content="rolex, reloj, watch, clock, accesorios">
-    <!-- Link de ícono -->
-    <link rel="shortcut icon" href="img/corona.png" />
-    <!-- CSS BS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/estilo.css">
-    <!-- LINK AOS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+    <title>pluma somier</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="@sweetalert2/theme-dark/dark.css">
+    <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
 </head>
 
 <body>
-    <!-- HEADER -->
-    <header class="navbar navbar-expand-lg menu-fijo header-fijo">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
-                <h1 data-aos="flip-left">ROLEX</h1>
-            </a>
-            <!-- menú hamburguesa -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon colorMenu"></span>
-            </button>
-            <!-- menú de navegación -->
-            <nav class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html">
-                           <h2>Inicio</h2>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="html/productos.html">
-                            <h2>Productos</h2>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="html/servicios.html">
-                            <h2>Servicios</h2>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="html/sucursales.html">
-                            <h2>Sucursal</h2>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="html/contactos.html">
-                            <h2>Contactos</h2>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+    <header>
+        <h1>PLUMA SOMIER</h1>
     </header>
-
-    <main>
-        <!-- CARROUSEL -->
-        <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="img/carrousel1.webp" class="d-block w-100" alt="Imágen de reloj Rolex OYSTER PERPETUAL MILGAUSS">
-                </div>
-                <div class="carousel-item">
-                    <img src="img/carrousel2.webp" class="d-block w-100" alt="Imágen de reloj Rolex OYSTER PERPETUAL DATE GMT-MASTER II">
-                </div>
-                <div class="carousel-item">
-                    <img src="img/carrousel3.webp" class="d-block w-100" alt="Imágen de reloj Rolex de mujer OYSTER PERPETUAL DAY-DATE superlative chronometer officiality certified">
-                </div>
+    <form action="" id="formulario">
+        <input type="text" id="text" placeholder="buscar">
+        <input type="submit" id="submit">
+    </form>
+    <div class="productos" id="productos">
+    </div>
+    <hr>
+    <div class="titulo">
+        <h2>Productos agregados al carrito</h2>
+    </div>
+    <div class="carrito">
+            <div class="carritoProductos">
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+        <div class="totalDiv">
+            <h3>TOTAL</h3>
+            <p class="total"></p>
+            <button onclick="vaciarCarrito()">Vaciar Carrito</button>
+            <button class="btnFinalizar">Finalizar compra</button>
         </div>
+    </div>
+    </div>
 
-        <section>
-            <div class="titulos mt-1">
-                <h3 data-aos="fade-down">Novedades</h3>
-            </div>
-
-            <div class="inicio-novedades container-fluid">
-                <h4 class="text-center mt-3">Queremos verte evolucionar con nosotros. ¡Nuevos modelos 2023!</h4>
-                <h5 class="text-center">El reto de la excelencia...</h5>
-                <p class="text-center">Con sus últimas creaciones, Rolex persiste en su perpetua búsqueda de excelencia. Un reto permanente que se expresa perfeccionando cada elemento, cuestionando cada logro y dominando cada savoir-faire. Los nuevos modelos Rolex presentados en 2023 hacen patente una voluntad de reinventarse de forma continua, de innovar manteniendo el espíritu de la tradición y de poner la técnica al servicio de la audacia creativa. A costa de tales exigencias se construyen las referencias relojeras. Esas que, con el tiempo, se convierten en iconos.</p>
-                <img src="img/novedades1.avif" alt="Imágen de reloj Oyster Perpetual Cosmograph Daytona" data-aos="zoom-in">
-                <p class="text-center mt-3">Reloj icónico por excelencia, el Oyster Perpetual Cosmograph Daytona se ha consolidado mucho más allá de los circuitos automovilísticos por su estética emblemática y su desempeño superlativo. Con ocasión de los 60 años del modelo, Rolex perpetúa el mito de su cronógrafo revisitando toda la gama. Un trabajo de gran precisión que se centra tanto en la caja como en el movimiento. Todos estos cambios y evoluciones nos recuerdan que la búsqueda de la excelencia es una carrera que no conoce fin.</p>
-                <img src="img/novedades3.avif" alt="Imágen de reloj Yacht Master 42" data-aos="zoom-in">
-                <p class="text-center mt-3">Ligero y robusto, el nuevo Oyster Perpetual Yacht Master 42 de titanio RLX se consolida como aliado de quienes buscan la libertad de movimiento. Especialmente adaptado a las exigencias y limitaciones de la vela deportiva, pone la excelencia al servicio del rendimiento. El Yacht‑Master 42, segundo reloj propuesto por Rolex en titanio RLX tras el Oyster Perpetual Deepsea Challenge, demuestra que la ligereza es un asunto serio.</p>
-                <img src="img/novedades4.jpg" alt="reloj Two New Wild Rolex Yacht-Master 42mm Models" data-aos="zoom-in">
-                <p class="text-center mt-3">Como todos los relojes Profesionales de Rolex, el Yacht-Master 37 ofrece una gran legibilidad en cualquier circunstancia, especialmente en la oscuridad, gracias a su visualización Chromalight. Sus amplias agujas y sus índices de formas simples —triángulos, círculos, rectángulos— están recubiertos de un material luminiscente de larga duración.</p>
-            </div>
-        </section>
-    </main>
-
-
-    <!-- FOOTER -->
-    <footer data-aos="flip-left" class="py-3 my-4" id="grad-footer">
-        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-            <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Inicio</a></li>
-            <li class="nav-item"><a href="html/productos.html" class="nav-link px-2 text-body-secondary">Productos</a></li>
-            <li class="nav-item"><a href="html/servicios.html" class="nav-link px-2 text-body-secondary">Servicios</a></li>
-            <li class="nav-item"><a href="html/sucursales.html" class="nav-link px-2 text-body-secondary">Sucursal</a></li>
-            <li class="nav-item"><a href="html/contactos.html" class="nav-link px-2 text-body-secondary">Contacto</a></li>
-        </ul>
-        <p class="text-center text-body-secondary">&copy; 2023 ROLEX</p>
-    </footer>
-
-    <!-- JS BS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-        crossorigin="anonymous"></script>
-    <!-- JS AOS -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="main.js"></script>
     <script>
-        AOS.init();
+        document.addEventListener('DOMContentLoaded', () => {
+        });
     </script>
 </body>
 
-</html>
+</html

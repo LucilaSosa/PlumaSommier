@@ -1,0 +1,32 @@
+[
+    {
+        "img": "img/somier1.webp",
+        "id": "1 plaza",
+        "descripcion": "Sommier 1 plaza resorte telgo dorado (80*190)",
+        "precio": 98699
+    },
+    {
+        "img": "img/somier2.webp",
+        "id": "2 plazas",
+        "descripcion": "Sommier 2 plazas resorte sealy sunshine (130*190)",
+        "precio": 420999
+    },
+    {
+        "img": "img/somier3.webp",
+        "id": "1 plaza y media",
+        "descripcion": "Sommier 1 plaza y media resorte sealy linen (90*190)",
+        "precio": 184799
+    },
+    {
+        "img": "img/somier4.webp",
+        "id": "2 plaza y media",
+        "descripcion": "Sommier hotelero resorte inducol delta (160*190)",
+        "precio": 476699
+    },
+    {
+        "img": "img/somier5.webp",
+        "id": "Somier king",
+        "descripcion": "Sommier king resorte meyer feliz (180*120)",
+        "precio": 391599
+    }
+]

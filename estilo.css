@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.637);
+    color: white;
+    text-align: center;
+}
+
+.productos {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cartaProd {
+    flex: 0 0 30%;
+    margin: 6px;
+
+    @media (max-width: 768px) {
+        flex: 0 0 45%;
+    }
+
+    @media (max-width: 576px) {
+        flex: 0 0 100%;
+    }
+}
+
+.cartaProd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.prodCarrito {
+    width: 100%;
+}
+
+.imagenProd {
+    width: 150px;
+    height: 150px;
+}
+
+.imagenProdCarrito {
+    width: 200px;
+    height: 200px;
+}
+
+.titulo h2 {
+    margin: 2px;
+    text-align: center;
+    background-color: rgba(198, 169, 24, 0.808);
+}
+
+.totalDiv {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.carritoProductos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.prodCarrito {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.buscar{
+    font-size: 150%;
+    margin: 3%;
+}
+
+button{
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(195, 179, 34, 0.777);
+}
+
+
+#formulario{
+    margin: 2%;
+    font-size: 130%;
+    position:static;
+}
+
+#text{
+    font-size: 70%;
+    padding: 0.5%;
+}
+
+#submit{
+    font-size: 70%;
+    padding: 0.5%;
+}
